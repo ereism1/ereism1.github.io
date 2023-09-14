@@ -1,0 +1,74 @@
+.container_um {
+    background-color: rgb(255, 255, 255);
+    border: 2px  black;
+    padding: 3px;
+    display: flex;
+    justify-content: right ;
+    
+
+    
+    
+    }
+     
+    .item{
+        border: 1px black ;
+        margin-inline: 5px;
+        font-size: 18PX;
+        color: black;
+        font-family: monospace;
+        
+        
+    }
+
+    .main{
+       
+        height: 60vh;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        }
+
+    .item2{
+        border:1px  black;
+        background-color:rgb(255, 255, 255); ;
+        width: 650px;
+        height:400px;
+        display:flex ;
+        justify-content:center ;
+        align-items:center;
+        font-size: 19px ;
+        font-family:monospace
+        }
+
+    .botao{
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        margin-right: 480px;
+        margin-top: 10px;
+        border-radius: 10px;
+        
+        
+    }
+    .button{
+        background-color: black;
+        border-radius: 10px;
+        height: 40px;
+        width: 90px;
+        font-family: monospace;
+        color: white
+        
+
+    }   
+    .img{
+        border-radius: 50px;
+        margin: 10PX;
+    }
+    .texto1{
+        font-family: monospace;
+        
+    }
