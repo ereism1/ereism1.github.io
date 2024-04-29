@@ -1,57 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eduardo_Reis</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio #2 | AsmrProg</title>
 </head>
+
 <body>
-    <div class="container_um">
-        <div class="item">
-            <a class="item" href="https://www.linkedin.com/in/eduardo-reis-5097431a8/" target="_blank"><b>Linkedin</b></a></div>
-        <div class="item"><a class="item" href="https://github.com/ereism1" target="_blank"><b>Github</b></a>
-            </div>
-       </div>
-       
-       <div class="main">
-        <div class="item2"><img class="img" height="250px" src="WhatsAppImageterno.png" alt="">
-            <div>
-                <p class="texto1">
-             <h3>Olá, eu sou Eduardo.</h3></p>
-            
-            <p>
-            Frontend Developer que desenvolve produtos centrados para o usuário.<br>
-            Apaixonado por desenvolvê-los com princípios de engenharia e design.</p>
-            Atualmente trabalhando em<span> ? ⚡️</span>
-            
 
-            <br><h4>
-            Top Skills
-            <br>
-            JavaScript
-            ·
-            Html
-            ·
-            CSS
-            ·
-            Software Design
-            ·
-            
-            <br>
-            </div>
-            </div>
-       </div>
-       <div class="botao">
-        <div class="btn-group">
-           
-       <button class="button"><a class="button" href="https://wa.me/5551982603074" target="_blank">Mensagem</a>
-       
-       </div>
-       
-      </div>
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Eduardo Reis</h1>
+            <h3>Back-end engineer</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
 
+    <section id="about">
+        <div class="header">
+            <h1>About Me</h1>
+            <a href="#">Hire Me</a>
+        </div>
+
+        <div class="card">
+            <img src="assets/logo.png">
+            <div class="info">
+                <h1>Back-end Engineer</h1>
+                <p>
+                 Hi, im 22yo and in love with data analitycs and cloud computing.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+            <h1>Features</h1>
+            <a href="#">See More</a>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-devices'></i>
+                    <h1>Responsive Design</h1>
+                    <p>
+                        Explore a diverse collection of my creative endeavors, including web design, javascript and mini
+                        projects.
+                        Each project showcases my creativity, attention to detail, and passion for delivering visually
+                        stunning and
+                        engaging experiences.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+
+                    <a><h1>Creative Projects</h1></a>
+                    <p>
+                        Behind the scenes, I pride myself on writing clean, efficient, and maintainable code. Learn more
+                        about my
+                        coding standards and practices that contribute to the functionality and performance of the
+                        projects I
+                        undertake.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-component'></i>
+                    <h1>Code Quality</h1>
+                    <p>
+                        Behind the scenes, I pride myself on writing clean, efficient, and maintainable code. Learn more
+                        about my
+                        coding standards and practices that contribute to the functionality and performance of the
+                        projects I
+                        undertake.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
 
+</html>
