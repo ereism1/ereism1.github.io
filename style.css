@@ -13,6 +13,7 @@ html{
 
 body{
     font-size: 14px;
+    background-color: #2b2f4b;
 }
 
 header{
@@ -138,8 +139,11 @@ header .info-text .scroll::before{
 }
 
 #about .card img{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50px;
 }
 
 #about .card .info{
@@ -192,6 +196,12 @@ header .info-text .scroll::before{
 
 #features .feature-cards .card .info p{
     font-size: 1.1rem;
+}
+
+button{
+    background-color: #2b2f4b;
+    border-radius: 10px;
+    height: 42px;
 }
 
 .scroll-top{
